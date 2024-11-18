@@ -1,4 +1,115 @@
-header{
+/*Fuentes*/
+
+@font-face {
+    font-family: Oswald;
+    src: url(Oswald-VariableFont_wght.ttf);
+}
+
+body{
+    margin: auto;
+    background-color: blue;
+}
+
+
+/*Header*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    background-color: #126d8e;
+    color: white;
+    place-items: center;
+    font-family: Oswald;
+    position: sticky;
+    top: 0;
+    z-index: 11;
+}
+ul{
+    display: flex;
+    margin: 4px;
+    list-style-type: none;
+}
+
+li{
+    margin: 10px;
+}
+
+#Logo{
+   margin-right: 10px;
+}
+#Logobanner{
+    display: flex;
+    margin-left: 25px;
+}
+
+/*Buscador*/
+
+.Searchersection{
     display: grid;
-    place-content: center;
+    font-family: Oswald;
+}
+
+.Searchersection img{
+width: 100%;
+height: 500px;
+z-index: 0;
+position: relative;
+}
+.Searchersection form{
+    z-index: 10;
+    position: absolute;
+    color: white;
+}
+
+.Searchersection div{
+    z-index: 10;
+    position: absolute;
+    color: white;
+    place-self: center
+}
+
+.Searchersection input{
+    width: 900px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: transparent;
+    border-color: 2px solid white;
+}
+
+.Searchersection  button{
+    padding: 10px;
+    background-color: #0343ba;
+    border-radius: 10px;
+    color: white;
+}
+
+/*Peliculas*/
+
+.movie-series-list{
+    background-color: blue;
+}
+
+.container-movie-details{
+width: 300px;
+height: 250px;
+border-radius: 20px;
+margin-right: 10px;
+}
+
+.container-movies{
+    display: flex;
+    
+}
+
+.container-movie-details img{
+    height: 200px;
+    width: 100%;
+    border-radius: 20px;
+}
+
+Footer{
+    background-color: #126d8e;
+    height: 150px;
 }

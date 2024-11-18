@@ -1,3 +1,10 @@
 #Secrets.js (API_KEY)
 
-src/secret.js
+secret.js
+#Fuentes
+
+*.ttf
+#Imagenes
+*jpg
+*webp
+*png
