@@ -10,18 +10,18 @@
 <body>
     <nav><div id="Logobanner">
 <h1 id="Logo"><i class="fa-solid fa-film"></i>CineFlix</h1>
-<h2>Las peliculas y series mas interesantes</h2>
+<h2 id="Logo-text">Las peliculas y series mas interesantes</h2>
 </div><div>
 <ul>
-    <li>Peliculas</li>
-    <li>Series de TV</li>
-    <li>Personas</li>
-    <li><i class="fa-solid fa-magnifying-glass"></i></li>
+    <li id="li1">Peliculas</li>
+    <li id="li2">Series de TV</li>
+    <li id="li3">Personas</li>
+    <li id="li4"><i class="fa-solid fa-magnifying-glass"></i></li>
 </ul>
 </div>    </nav>
 <section class="Searchersection">
-    <div>
-<h1>CineFlix, <br> Informacion sobre todas
+    <div id="searcher-container">
+<h1 id="Title-text">CineFlix, <br> Informacion sobre todas
     los estrenos recientes de las mejores
     series y peliculas
 </h1><form action="">
@@ -29,87 +29,44 @@
 <button>buscar</button>
 <label for="input">Accede a un basto mundo de peliculas y series</label></form>
 </div>
-<img src="maxresdefault (1).jpg" alt="" srcset="">
-
+<img src="maxresdefault (1).jpg" id="Searcher-image" alt="" srcset="">
+</div>
 </section>
+<div class="category-preview">
+<section class="category-container">
+<div class="category">
 
+</section><h1>Tendencias en Peliculas</h1>
 <section class="movie-series-list">
-    <h1>Tendencias</h1>
+    
 <div class="container-movies">
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
 </div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-</div>
-
-
 </section>
-<br>
-<section class="movie-series-list">
-    <h1>Novedades</h1>
+<br><h1>Tendencias en series</h1>
+<section id="Series-list" class="movie-series-list">
+    
 <div class="container-movies">
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
-<div class="container-movie-details">
-    <img src="Phantasm_Ravager_(2016_Film).jpg" alt="">
-    <h6>Phantasm Ravager</h6> <p>7 oct 2016</p>
-   
-</div>
 </div>
 
 
 </section>
 <br>
 <Footer>
-    <div>
+    <div id="Footer-container1">
         <h1><i class="fa-solid fa-film"></i>CineFlix</h1>
     </div>
-    <div>
-        <h2>
+    <div id="Footer-container2">
+        <h2 id="Footer-text1">
             Basicos
         </h2>
+
+        <p id="Footer-text2"></p>
     </div>
 </Footer>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <script src="secret.js"></script>
+    <script src="nodes.js"></script>
     <script src="App.js"></script>
+    <script src="Navigation.js"></script>
 </body>
 </html>
